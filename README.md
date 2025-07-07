@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/48e1f57d-cc66-47cc-a971-ace9d19931aa)# Personal_Expense_Tracker
+# Personal_Expense_Tracker
 A lightweight personal expense tracker built using Python, HTML, CSS, JavaScript, and SQLite to log, manage, and analyze daily expenses through a clean and user-friendly interface.
 The Personal Expense Tracker system was developed to help individuals efficiently manage and analyze their daily expenditures. The results presented in this section demonstrate the system’s ability to accurately capture expense data, analyze spending patterns, and provide useful insights through an intuitive user interface. Additionally, the implementation of optional features like budget management, data export/import, and notifications further enhances the user experience and promotes better financial decision-making. This section highlights the key functionalities, user interactions, and performance outcomes of each core and optional module in the system.
 
