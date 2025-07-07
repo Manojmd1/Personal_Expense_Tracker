@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("{{ url_for('image', filename='background.jpg') }}") no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    height: 40px; 
+}
+
+.navbar h3 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    width: 30%;
+    margin: 100px auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+    color: #f9f8f8;
+}
+
+input, button {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    background: #fff;
+}
+
+button {
+    background: #f8b400;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ffcc00;
+}
+
+.error {
+    color: red;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
